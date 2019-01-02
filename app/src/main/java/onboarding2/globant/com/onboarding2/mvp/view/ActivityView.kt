@@ -1,4 +1,4 @@
-package com.globant.counter.mvp.view
+package onboarding2.globant.com.onboarding2.mvp.view
 
 import android.app.Activity
 import android.app.FragmentManager

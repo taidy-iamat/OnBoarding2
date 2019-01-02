@@ -1,6 +1,6 @@
 package onboarding2.globant.com.onboarding2.mvp.model
 
-class CalculatorModel {
+open class CalculatorModel {
 
     var action: CalculatorITEM = CalculatorITEM.EMPTY_ITEM
     var value1: Float = 0.0F
