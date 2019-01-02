@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">OnBoarding2</string>
+    <string name="values">Enter number</string>
 </resources>
