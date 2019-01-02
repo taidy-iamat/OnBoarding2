@@ -1,13 +1,12 @@
 package onboarding2.globant.com.onboarding2.mvp.presenter
 
 
-
+import com.globant.counter.mvp.view.CountView
 import onboarding2.globant.com.onboarding2.mvp.model.CalculatorModel
-import onboarding2.globant.com.onboarding2.mvp.view.CountView
 import onboarding2.globant.com.onboarding2.utils.bus.RxBus
 import onboarding2.globant.com.onboarding2.utils.bus.observer.*
 
-open class CountPresenter(model: CalculatorModel, view: CountView) {
+class CountPresenter(model: CalculatorModel, view: CountView) {
 
     init {
 

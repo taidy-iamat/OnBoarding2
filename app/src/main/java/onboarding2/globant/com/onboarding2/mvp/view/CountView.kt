@@ -1,4 +1,4 @@
-package onboarding2.globant.com.onboarding2.mvp.view
+package com.globant.counter.mvp.view
 
 
 import android.app.Activity
@@ -10,7 +10,7 @@ import onboarding2.globant.com.onboarding2.utils.bus.RxBus
 import onboarding2.globant.com.onboarding2.utils.bus.observer.*
 
 
-open class CountView(activity: Activity) : ActivityView(activity) {
+class CountView(activity: Activity) : ActivityView(activity) {
     fun setExpression(expression: String) {
         activity?.text_expression?.text = expression
     }
